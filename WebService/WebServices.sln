@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServices", "WebServices.csproj", "{BA35C2E1-62FF-4130-9167-AB2F0DA60432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalWebApplication", "..\CalWebApplication\CalWebApplication.csproj", "{CBE6E8D4-F7DC-4191-885E-A753CE863461}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA35C2E1-62FF-4130-9167-AB2F0DA60432} = {BA35C2E1-62FF-4130-9167-AB2F0DA60432}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA35C2E1-62FF-4130-9167-AB2F0DA60432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA35C2E1-62FF-4130-9167-AB2F0DA60432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA35C2E1-62FF-4130-9167-AB2F0DA60432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA35C2E1-62FF-4130-9167-AB2F0DA60432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE6E8D4-F7DC-4191-885E-A753CE863461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE6E8D4-F7DC-4191-885E-A753CE863461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE6E8D4-F7DC-4191-885E-A753CE863461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE6E8D4-F7DC-4191-885E-A753CE863461}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D69FC317-FBE6-48D9-A865-6F1875BF8FAC}
+	EndGlobalSection
+EndGlobal
